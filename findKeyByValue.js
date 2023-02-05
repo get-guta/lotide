@@ -1,4 +1,4 @@
-
+//find object keys by value
 function findKeyByValue(object, value) {
   return Object.keys(object).find(
     function(key) {return object[key] === value;
