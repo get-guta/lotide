@@ -30,7 +30,7 @@ const assertObjectsEqual = function(object1, object2) {
   if(eqObjects(object1, object2)) {
     console.log(`✅✅✅ Assertion Passed:  ${inspect(object1)} === ${inspect(object2)}`);
   } else {
-    console.log(`🔴🔴🔴Assertion Failed:  ${inspect(object1)} !== ${inspect(object2)}`);
+    console.log(`🔴🔴🔴 Assertion Failed:  ${inspect(object1)} !== ${inspect(object2)}`);
   }
 };
 
@@ -42,3 +42,5 @@ assertObjectsEqual(shirtObject , anotherShirtObject); // => true
 
 const longSleeveShirtObject= { size: "medium", color: "red", sleeveLength: "long" };
 assertObjectsEqual(shirtObject , longSleeveShirtObject); // => false
+
+module.exports = {object: assertObjectsEqual};
