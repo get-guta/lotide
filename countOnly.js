@@ -15,7 +15,6 @@ const countOnly = function(allItems, itemsToCount) {
     }
     
   }
-  //console.log(countNames);
   return countNames;
 };
 

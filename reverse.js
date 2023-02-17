@@ -16,3 +16,5 @@ const reverse = function(str) {
   
 };
 console.log(reverse(strArray));
+
+module.exports = reverse;
