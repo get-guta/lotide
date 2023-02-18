@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@get-guta/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Lotide project is inspired by the Lodash project, which is a utility library for JavaScript. ",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/get-guta/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Getenesh Guta",
+    "email" : "getenesh.guta@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/get-guta/lotide/issues"
