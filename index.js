@@ -9,19 +9,33 @@ const takeUntil = require('./takeUntil');
 const reverse = require('./reverse');
 const map = require('./map');
 const letterPositions = require('./letterPositions');
-const flatten = require()
+const flatten = require('./flatten')
+const countOnly = require('./countOnly');
+const countLetters = require('./countLetters');
+const findKey = require('./findKey');
+const findKeyByValue = require('./findKeyByValue');
+const eqObjects = require('./eqObjects');
+const assertObjectsEqual = require('./assertObjectsEqual');
+
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  eqArrays: eqArrays,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
+  head,
+  tail,
+  middle,
+  eqArrays,
+  assertArraysEqual,
+  assertEqual,
   without,
   takeUntil,
   reverse,
   map,
   letterPositions,
+  flatten,
+  countOnly,
+  countLetters,
+  findKey,
+  findKeyByValue,
+  eqObjects,
+  assertObjectsEqual
 
 };
